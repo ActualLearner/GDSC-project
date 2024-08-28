@@ -1,19 +1,39 @@
 # GDSC-project
-Repo for tracking final project for GDSC backend summer course.
+# Car Rental Management System
 
-API Endpoints-
+## Overview
 
-/api/car
+This repository contains the backend implementation for a car rental management system. The system provides APIs to manage cars and bookings.
 
-GET /api/car: Retrieves a list of all cars. 
-GET /api/car/:model: Queries cars based on a specific model. 
-POST /api/car: Creates a new car entry. 
-PUT /api/car/:id: Updates an existing car by its ID. 
-DELETE /api/car/:id: Deletes a car by its ID. 
+## API Endpoints
 
-/api/booking
+### Car Management
 
-GET /api/booking: Retrieves a list of all bookings. 
-POST /api/booking: Creates a new booking. 
-PUT /api/booking/:id: Updates an existing booking by its ID. 
-DELETE /api/booking/:id: Deletes a booking by its ID. 
+- **GET /api/cars**
+  - Retrieves a list of all available cars.
+
+- **GET /api/cars/:model**
+  - Retrieves cars based on a specific model.
+
+- **POST /api/cars**
+  - Creates a new car entry.
+
+- **PUT /api/cars/:id**
+  - Updates an existing car by its ID.
+
+- **DELETE /api/cars/:id**
+  - Deletes a car by its ID.
+
+### Booking Management
+
+- **GET /api/bookings**
+  - Retrieves a list of all bookings.
+
+- **POST /api/bookings**
+  - Creates a new booking.
+
+- **PUT /api/bookings/:id**
+  - Updates an existing booking by its ID.
+
+- **DELETE /api/bookings/:id**
+  - Deletes a booking by its ID.
